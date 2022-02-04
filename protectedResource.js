@@ -73,6 +73,6 @@ app.post("/resource", getAccessToken, (req, res) => {
 });
 
 // サーバ起動
-const server = app.listen(portNumber, hostAddress, () => {
+const server = app.listen(portNumber, () => {
 	console.log(`OAuth Resource Server is listening at http://${hostAddress}:${portNumber}`);
 });
