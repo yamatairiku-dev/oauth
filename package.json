@@ -1,0 +1,12 @@
+{
+        "dependencies": {
+                "consolidate": "^0.13.1",
+                "express": "^4.13.1",
+                "node-fetch": "^2.6.1",
+                "nosql": "^6.1.0",
+                "qs": "^6.9.3",
+                "randomstring": "^1.0.7",
+                "underscore": "^1.8.3",
+                "underscore.string": "^3.1.1"
+        }
+}
