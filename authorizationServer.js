@@ -20,7 +20,7 @@ app.set('json spaces', 4);
 
 // 自サーバ（認可サーバ）の情報
 const hostAddress = 'localhost';
-const portNumber = 9001;
+const portNumber = 3001;
 
 // トークンの有効期限を設定（秒）
 const expiresIn = 30*24*60*60;		//30日

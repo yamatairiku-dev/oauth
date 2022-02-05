@@ -19,8 +19,8 @@ app.set('views', 'files/client');
 // 自サーバ（クライアント）の情報
 const hostAddress = 'localhost';
 const portNumber = 3000;
-const authorizationServerPort = 9001;
-const protectedResourceServerPort = 9002;
+const authorizationServerPort = 3001;
+const protectedResourceServerPort = 3002;
 const client = {
 	"client_id": "takusou",
 	"client_secret": "takusou-secret",

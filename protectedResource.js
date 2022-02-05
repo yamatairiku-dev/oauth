@@ -14,7 +14,7 @@ app.set('json spaces', 4);
 
 // 自サーバ（リソースサーバ）の情報
 const hostAddress = 'localhost';
-const portNumber = 9002;
+const portNumber = 3002;
 
 // リクエストからトークンを取得しデータベースと照合する関数
 const getAccessToken = (req, res, next) => {
